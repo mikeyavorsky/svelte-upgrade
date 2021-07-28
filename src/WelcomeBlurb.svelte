@@ -1,6 +1,11 @@
+<script>
+  import { Link } from "svelte-routing";
+  import StyledLink from "./StyledLink.svelte"
+</script>
+
 <p>
-  We’re all vaccinated! Please check out the schedule for our Friday & Saturday
-  events, and RSVP here. Looking forward to seeing you!
+  We’re all vaccinated! Please check out the <Link to="/schedule">schedule</Link> for our Friday & Saturday
+  events, and <Link to="/rsvp">RSVP here</Link>. Looking forward to seeing you!
 </p>
 
 <style>

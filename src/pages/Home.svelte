@@ -7,8 +7,6 @@
 	import TransparentBackground from '../TransparentBackground.svelte';
 	import StyledMenu from '../StyledMenu.svelte';
 	import StyledLink from '../StyledLink.svelte';
-
-	export let name;
 </script>
 
 <main>
@@ -18,13 +16,6 @@
 	<TransparentBackground>
 		<WelcomeBlurb />
 	</TransparentBackground>
-	<StyledMenu>
-		<StyledLink>Accommodation</StyledLink>
-		<StyledLink>Schedule</StyledLink>
-		<StyledLink>Directions</StyledLink>
-		<StyledLink>Registry</StyledLink>
-		<StyledLink>RSVP</StyledLink>
-	</StyledMenu>
 </main>
 
 <style>
@@ -45,6 +36,15 @@
 	margin: 0;
 	padding: 0;
 	background: url("profile-full-top-01-copy+copy.jpg");
+}
+
+:global(div.flex) {
+	display: flex;
+	gap: 0.25rem;
+}
+
+:global(div.flex.column) {
+	flex-direction: column;
 }
 
 main {

@@ -1,9 +1,9 @@
-<a>
+<p>
   <slot></slot>
-</a>
+</p>
 
 <style>
-  a {
+  p, p > a {
     font-family: Orpheus Pro;
     font-style: normal;
     font-weight: normal;

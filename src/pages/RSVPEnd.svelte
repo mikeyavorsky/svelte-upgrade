@@ -1,29 +1,12 @@
 <script>
   import { Router, Route, Link } from "svelte-routing";
-  import EventBlurb from "../EventBlurb.svelte";
-  import Logotype from "../Logotype.svelte";
-  import RSVPButton from "../RSVPButton.svelte";
-  import WelcomeBlurb from "../WelcomeBlurb.svelte";
   import TransparentBackground from "../TransparentBackground.svelte";
-  import StyledMenu from "../StyledMenu.svelte";
-  import StyledLink from "../StyledLink.svelte";
-
-  export let name;
 </script>
 
 <main>
-  <Logotype />
-  <EventBlurb />
   <TransparentBackground>
-    <WelcomeBlurb />
+    <p>Success! Any more people? <Link to="/rsvp">Add more RSVPs here.</Link></p>
   </TransparentBackground>
-  <StyledMenu>
-    <StyledLink>Accommodation</StyledLink>
-    <StyledLink>Schedule</StyledLink>
-    <StyledLink>Directions</StyledLink>
-    <StyledLink>Registry</StyledLink>
-    <StyledLink>RSVP</StyledLink>
-  </StyledMenu>
 </main>
 
 <style>
