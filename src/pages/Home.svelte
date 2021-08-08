@@ -33,7 +33,7 @@
 :global(body) {
 	margin: 0;
 	padding: 0;
-	background: url("/images/profile-full-top-01-extended.jpg");
+	background: url("images/profile-full-top-01-extended.jpg");
 }
 
 :global(div.flex) {
