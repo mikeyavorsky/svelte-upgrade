@@ -4,13 +4,13 @@
 </script>
 
 <p>
-  We’re all vaccinated! Please check out the <Link to="/schedule">schedule</Link> for our Friday & Saturday
-  events, and <Link to="/rsvp">RSVP here</Link>. Looking forward to seeing you!
+  We’re all vaccinated! Please check out the <Link to="/schedule"><span>schedule</span></Link> for our Friday & Saturday
+  events. Looking forward to seeing you!
 </p>
 
 <style>
 p {
-  font-family: "Orpheus Pro", serif;
+  font-family: "orpheuspro", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 3.125rem;
@@ -20,4 +20,13 @@ p {
   /* Red */
   color: var(--red, #eb796e);
 }  
+
+span {
+  font-family: orpheuspro;
+  text-align: center;
+  text-decoration-line: underline;
+
+  /* Red */
+  color: var(--red, #eb796e);
+}
 </style>

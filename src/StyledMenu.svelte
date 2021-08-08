@@ -14,4 +14,10 @@
   :global(nav > *) {
     margin: 0.5rem;
   }
+  
+  @media screen and (min-width: 800px) {
+    nav {
+      margin: 4rem;
+    }
+  }
 </style>

@@ -2,12 +2,11 @@
 
 <style>
   h2 {
-    font-family: Orpheus Pro;
+    font-family: lust-script, serif;
     font-style: italic;
-    font-weight: normal;
     font-size: 3rem;
     line-height: 3.6875rem;
     text-align: center;
-    color: var(--mustard, #f5a75f);
+    color: var(--red, #f5a75f);
   }
 </style>

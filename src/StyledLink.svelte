@@ -4,7 +4,7 @@
 
 <style>
   p, p > a {
-    font-family: Orpheus Pro;
+    font-family: orpheuspro;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;

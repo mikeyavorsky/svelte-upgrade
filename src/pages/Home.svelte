@@ -2,7 +2,6 @@
 	import { Router, Route, Link } from "svelte-routing";
 	import EventBlurb from '../EventBlurb.svelte';
 	import Logotype from '../Logotype.svelte';
-	import RSVPButton from '../RSVPButton.svelte';
 	import WelcomeBlurb from '../WelcomeBlurb.svelte';
 	import TransparentBackground from '../TransparentBackground.svelte';
 	import StyledMenu from '../StyledMenu.svelte';
@@ -11,8 +10,7 @@
 
 <main>
 	<Logotype />
-	<EventBlurb />
-		<Link to="/rsvp"><RSVPButton /></Link>
+<EventBlurb />
 	<TransparentBackground>
 		<WelcomeBlurb />
 	</TransparentBackground>
@@ -29,13 +27,13 @@
 
 :global(*) {
 	box-sizing: border-box;
-	font-family: "Orpheus Pro", serif;
+	font-family: "orpheuspro", serif;
 }
 
 :global(body) {
 	margin: 0;
 	padding: 0;
-	background: url("profile-full-top-01-copy+copy.jpg");
+	background: url("profile-full-top-01-extended.jpg");
 }
 
 :global(div.flex) {
